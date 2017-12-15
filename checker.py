@@ -27,7 +27,7 @@ def write(domain, extension):
     f.write('{d}.{e}\n'.format(d=domain, e=extension))
     f.close()
 
-    if 3 <= domain <= 7:
+    if 3 <= len(domain) <= 7:
         f = open('availables-3-7', 'a+')
         f.write('{d}.{e}\n'.format(d=domain, e=extension))
         f.close()
