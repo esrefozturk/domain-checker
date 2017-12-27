@@ -1,5 +1,7 @@
 <h1>Domain Checker</h1>
 
+It automatically checks domain availabilities of the words in the wordlist.
+
 <h2>How to Use</h2>
 
 - Run `git clone git@github.com:esrefozturk93/domain-checker.git`
